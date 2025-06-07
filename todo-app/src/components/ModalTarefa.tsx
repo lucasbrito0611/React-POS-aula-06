@@ -1,10 +1,6 @@
 import { useState } from "react";
 import { IoCloseOutline } from "react-icons/io5";
-
-interface ModalTarefaProps {
-    addTarefa: (titulo: string) => void;
-    onClose: () => void;
-}
+import { ModalTarefaProps } from "@/types/tarefa";
 
 const ModalTarefa = ({ addTarefa, onClose }: ModalTarefaProps) => {
     const [titulo, setTitulo] = useState('');

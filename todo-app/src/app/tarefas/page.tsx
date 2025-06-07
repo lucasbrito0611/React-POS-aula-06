@@ -5,7 +5,7 @@ import axios from 'axios'
 
 
 import { useEffect, useState } from "react";
-import { Todo } from "@/app/api/page";
+import { Todo } from "@/types/tarefa";
 import Cabecalho from "@/components/Cabecalho";
 import Tarefas from "@/components/Tarefas";
 import ModalTarefa from "@/components/ModalTarefa";

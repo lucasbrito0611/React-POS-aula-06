@@ -1,9 +1,5 @@
 import { useState } from "react";
-
-interface TarefaProps {
-    titulo: string;
-    concluido?: boolean;
-}
+import { TarefaProps } from "@/types/tarefa";
 
 const Tarefa = ({ titulo, concluido }: TarefaProps) => {
     const [estaConcluido, setEstaConcluido] = useState(concluido);

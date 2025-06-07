@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen px-4 py-12 text-center bg-gradient-to-br from-white to-gray-100 dark:from-[#111] dark:to-[#1a1a1a]">
+    <main className="flex flex-col items-center justify-center min-h-screen px-4 py-12 text-center bg-zinc-700">
       <Image
         src="/next.svg"
         alt="Next.js logo"

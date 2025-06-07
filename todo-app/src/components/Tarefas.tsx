@@ -1,9 +1,5 @@
-import { Todo } from "@/app/api/page";
 import Tarefa from "@/components/Tarefa";
-
-interface TarefasProps {
-    dados: Todo[];
-}
+import { TarefasProps } from "@/types/tarefa";
 
 const Tarefas = ({ dados }: TarefasProps) => {
     return (

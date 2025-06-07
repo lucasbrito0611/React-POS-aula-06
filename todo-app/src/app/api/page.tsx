@@ -1,14 +1,8 @@
 "use client"
 
 import { useState, useEffect } from 'react'
+import { Todo } from '@/types/tarefa'
 import axios from 'axios'
-
-export interface Todo {
-    id: number
-    todo: string
-    completed: boolean
-    userId: number
-}
 
 export default function TodosPage() {
     const [todos, setTodos] = useState<Todo[]>([])
