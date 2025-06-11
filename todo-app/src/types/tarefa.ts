@@ -16,5 +16,4 @@ export interface TarefasProps {
 
 export interface ModalTarefaProps {
     addTarefa: (titulo: string) => void;
-    onClose: () => void;
 }
